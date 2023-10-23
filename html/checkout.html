@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>checkout</title>
+</head>
+<body>
+    <header>
+        <header>
+            <h1>Welcome at black is the new B</h1>
+            <p>Your Online Make-up store for Queens</p>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="../Index.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./make-up remover.html">Categories</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+                <li><a href="./Checkout.html">Checkout</a></li>
+            </ul>
+        </nav> 
+        <section class="about">
+            <p>At black is the new B, we are committed to making your make-up experience unforgettable.</p>
+            <p>Our User-Friendly Online Store:</p>
+            </section>
+        <section class="checkout">
+            <form
+            action="https://formspree.io/f/myyqlapq"
+            method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="address">Shipping Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea><br><br>
+                <label for="card">Credit Card Number:</label>
+                <input type="text" id="card" name="card" required><br><br>
+                <label for="expiry">Expiration Date:</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required><br><br>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required><br><br>
+                <input type="submit" value="Checkout">
+        </section>
+        <section class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>Stay updated with our latest make-up and offers.</p>
+            <form
+            action="https://formspree.io/f/myyqlapq"
+            method="POST">    
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Subscribe">
+              </form>
+        </section>
+        <footer>
+            <p>&copy; Own your crown - Your Online make-up store</p>
+        </footer>
+    </body>
+    </html>

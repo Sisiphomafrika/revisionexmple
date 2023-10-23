@@ -6,3 +6,108 @@
     padding: 0;
     box-sizing: border-box;
 }
+ header {
+    background-color: #db349e; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #cc2e82; 
+    display: flex; 
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+section.newsletter {
+    background-color: #f10f8b; /* Yellow background color for the newsletter section */
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: white; 
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; 
+    }
+
+}
+
+body {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.Book2 {
+    display: inline-block;
+    border: 10px solid #000; 
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    border: solid black;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto; 
+}
+
+nav a:hover {
+    background-color: #f10f8b;
+}
+
+div {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: solid black;
+    max-width: 200px; 
+}
+
+body {
+    background-color: #cc2e82; 
+
+}
+
+section.newsletter {
+    background-color: #f10fa9;
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 20px;
